@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 
-namespace webapitest.Controllers;
+namespace PostHome.Controllers;
 
 [ApiController]
 [Route("api/[controller]")]
