@@ -23,10 +23,4 @@ public class GitHubWebhookController : ApiControllerBase
         logger.LogInformation(stuff?.ToString());   
     }
 
-    [HttpPut]
-    public void Put(object stuff)
-    {
-        logger.LogInformation(stuff?.ToString());  
-        throw new Exception("Blergh!"); 
-    }
 }
